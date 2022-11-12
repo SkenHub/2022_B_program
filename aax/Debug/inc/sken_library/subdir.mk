@@ -4,7 +4,7 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../inc/sken_library/Enc.cpp \
+../inc/sken_library/I2C.cpp \
 ../inc/sken_library/Motor.cpp \
 ../inc/sken_library/PS3.cpp \
 ../inc/sken_library/adc.cpp \
@@ -16,11 +16,12 @@ CPP_SRCS += \
 ../inc/sken_library/io_name.cpp \
 ../inc/sken_library/pid.cpp \
 ../inc/sken_library/rc_pwm.cpp \
+../inc/sken_library/sken_mdd.cpp \
 ../inc/sken_library/system.cpp \
 ../inc/sken_library/uart.cpp 
 
 OBJS += \
-./inc/sken_library/Enc.o \
+./inc/sken_library/I2C.o \
 ./inc/sken_library/Motor.o \
 ./inc/sken_library/PS3.o \
 ./inc/sken_library/adc.o \
@@ -32,11 +33,12 @@ OBJS += \
 ./inc/sken_library/io_name.o \
 ./inc/sken_library/pid.o \
 ./inc/sken_library/rc_pwm.o \
+./inc/sken_library/sken_mdd.o \
 ./inc/sken_library/system.o \
 ./inc/sken_library/uart.o 
 
 CPP_DEPS += \
-./inc/sken_library/Enc.d \
+./inc/sken_library/I2C.d \
 ./inc/sken_library/Motor.d \
 ./inc/sken_library/PS3.d \
 ./inc/sken_library/adc.d \
@@ -48,6 +50,7 @@ CPP_DEPS += \
 ./inc/sken_library/io_name.d \
 ./inc/sken_library/pid.d \
 ./inc/sken_library/rc_pwm.d \
+./inc/sken_library/sken_mdd.d \
 ./inc/sken_library/system.d \
 ./inc/sken_library/uart.d 
 
@@ -57,7 +60,7 @@ inc/sken_library/%.o: ../inc/sken_library/%.cpp
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU G++ Compiler'
 	@echo $(PWD)
-	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_HAL_DRIVER -I"C:/Users/106no/workspace/aax/HAL_Driver/Inc/Legacy" -I"C:/Users/106no/workspace/aax/Utilities/STM32F4xx-Nucleo" -I"C:/Users/106no/workspace/aax/inc" -I"C:/Users/106no/workspace/aax/CMSIS/device" -I"C:/Users/106no/workspace/aax/CMSIS/core" -I"C:/Users/106no/workspace/aax/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fno-exceptions -fno-rtti -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32 -DSTM32F4 -DSTM32F446RETx -DNUCLEO_F446RE -DDEBUG -DSTM32F446xx -DUSE_HAL_DRIVER -I"C:/Users/hotaka/workspace/2022_B_program/aax/HAL_Driver/Inc/Legacy" -I"C:/Users/hotaka/workspace/2022_B_program/aax/Utilities/STM32F4xx-Nucleo" -I"C:/Users/hotaka/workspace/2022_B_program/aax/inc" -I"C:/Users/hotaka/workspace/2022_B_program/aax/CMSIS/device" -I"C:/Users/hotaka/workspace/2022_B_program/aax/CMSIS/core" -I"C:/Users/hotaka/workspace/2022_B_program/aax/HAL_Driver/Inc" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -fno-exceptions -fno-rtti -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

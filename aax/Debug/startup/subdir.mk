@@ -15,7 +15,7 @@ startup/%.o: ../startup/%.s
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU GCC Assembler'
 	@echo $(PWD)
-	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"C:/Users/106no/workspace/aax/HAL_Driver/Inc/Legacy" -I"C:/Users/106no/workspace/aax/Utilities/STM32F4xx-Nucleo" -I"C:/Users/106no/workspace/aax/inc" -I"C:/Users/106no/workspace/aax/CMSIS/device" -I"C:/Users/106no/workspace/aax/CMSIS/core" -I"C:/Users/106no/workspace/aax/HAL_Driver/Inc" -g -o "$@" "$<"
+	arm-none-eabi-as -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -I"C:/Users/hotaka/workspace/2022_B_program/aax/HAL_Driver/Inc/Legacy" -I"C:/Users/hotaka/workspace/2022_B_program/aax/Utilities/STM32F4xx-Nucleo" -I"C:/Users/hotaka/workspace/2022_B_program/aax/inc" -I"C:/Users/hotaka/workspace/2022_B_program/aax/CMSIS/device" -I"C:/Users/hotaka/workspace/2022_B_program/aax/CMSIS/core" -I"C:/Users/hotaka/workspace/2022_B_program/aax/HAL_Driver/Inc" -g -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
