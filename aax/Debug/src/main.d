@@ -89,8 +89,8 @@ src/main.o: ../src/main.cpp \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Gpio.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/PS3.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/I2C.h \
- C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/sken_mdd.h \
- C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_mdd.h
+ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_mdd.h \
+ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/include.h
 
 C:/Users/hotaka/workspace/2022_B_program/aax/CMSIS/device/stm32f4xx.h:
 
@@ -272,6 +272,6 @@ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/PS3.h:
 
 C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/I2C.h:
 
-C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/sken_mdd.h:
-
 C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_mdd.h:
+
+C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/include.h:

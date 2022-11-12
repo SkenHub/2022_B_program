@@ -16,7 +16,6 @@ CPP_SRCS += \
 ../inc/sken_library/io_name.cpp \
 ../inc/sken_library/pid.cpp \
 ../inc/sken_library/rc_pwm.cpp \
-../inc/sken_library/sken_mdd.cpp \
 ../inc/sken_library/system.cpp \
 ../inc/sken_library/uart.cpp 
 
@@ -33,7 +32,6 @@ OBJS += \
 ./inc/sken_library/io_name.o \
 ./inc/sken_library/pid.o \
 ./inc/sken_library/rc_pwm.o \
-./inc/sken_library/sken_mdd.o \
 ./inc/sken_library/system.o \
 ./inc/sken_library/uart.o 
 
@@ -50,7 +48,6 @@ CPP_DEPS += \
 ./inc/sken_library/io_name.d \
 ./inc/sken_library/pid.d \
 ./inc/sken_library/rc_pwm.d \
-./inc/sken_library/sken_mdd.d \
 ./inc/sken_library/system.d \
 ./inc/sken_library/uart.d 
 

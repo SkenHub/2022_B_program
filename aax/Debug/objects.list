@@ -100,7 +100,6 @@
 "inc/sken_library/io_name.o"
 "inc/sken_library/pid.o"
 "inc/sken_library/rc_pwm.o"
-"inc/sken_library/sken_mdd.o"
 "inc/sken_library/system.o"
 "inc/sken_library/uart.o"
 "inc/sken_mdd.o"

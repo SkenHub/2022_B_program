@@ -22,6 +22,6 @@
 #include "Motor.h"
 #include "PS3.h"
 #include "I2C.h"
-#include "sken_mdd.h"
+//#include "sken_mdd.h"
 
 #endif /* INCLUDE_H_ */

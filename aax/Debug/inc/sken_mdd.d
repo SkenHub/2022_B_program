@@ -83,7 +83,7 @@ inc/sken_mdd.o: ../inc/sken_mdd.cpp ../inc/sken_mdd.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Gpio.h \
  ../inc/sken_library/PS3.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/include.h \
- ../inc/sken_library/I2C.h ../inc/sken_library/sken_mdd.h
+ ../inc/sken_library/I2C.h
 
 ../inc/sken_mdd.h:
 
@@ -268,5 +268,3 @@ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Gpio.h:
 C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/include.h:
 
 ../inc/sken_library/I2C.h:
-
-../inc/sken_library/sken_mdd.h:

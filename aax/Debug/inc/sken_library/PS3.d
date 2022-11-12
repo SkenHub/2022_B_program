@@ -88,8 +88,7 @@ inc/sken_library/PS3.o: ../inc/sken_library/PS3.cpp \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Motor.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Gpio.h \
  C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/PS3.h \
- C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/I2C.h \
- C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/sken_mdd.h
+ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/I2C.h
 
 ../inc/sken_library/PS3.h:
 
@@ -270,5 +269,3 @@ C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/Gpio.h:
 C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/PS3.h:
 
 C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/I2C.h:
-
-C:/Users/hotaka/workspace/2022_B_program/aax/inc/sken_library/sken_mdd.h:
