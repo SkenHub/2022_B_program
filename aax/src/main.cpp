@@ -11,6 +11,7 @@
  プログラム内容：MDD、電磁弁×5、モーター×2
 最終更新：2022/10/15
 最終更新者:Ｓｈｉｏｎ Ｎｏｇｕｃｈｉ
+SPDX-FileCopyrightText: 2022 Shion Noguchi
  */
 
 
