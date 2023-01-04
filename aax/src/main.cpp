@@ -12,7 +12,7 @@
 最終更新：2022/10/15
 最終更新者:Ｓｈｉｏｎ Ｎｏｇｕｃｈｉ
 SPDX-FileCopyrightText: 2022 Shion Noguchi
-SPDX-License-Identifier: LGPL-2.0-or-later
+SPDX-License-Identifier:MIT
  */
 
 
