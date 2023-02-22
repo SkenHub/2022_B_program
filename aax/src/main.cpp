@@ -9,7 +9,7 @@
 */
 /*
  プログラム内容：MDD、電磁弁×5、モーター×2
-最終更新：2022/10/15
+最終更新：2023/02/22
 最終更新者:Ｓｈｉｏｎ Ｎｏｇｕｃｈｉ
 SPDX-FileCopyrightText: 2023 Shion Noguchi
 SPDX-License-Identifier:cc by 4.0
